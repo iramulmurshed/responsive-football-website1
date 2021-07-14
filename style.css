@@ -1,16 +1,18 @@
+/*common css properties*/
+
 * {
-    margin: 0;
+    margin: 0;      
     padding: 0;
     box-sizing: border-box;
 
 
 }
-
+/*font selection*/
 body {
 
     font-family: 'Poppins', sans-serif;
 }
-
+/* top section */
 .container-one {
 
     display: flex;
@@ -54,7 +56,7 @@ body {
 
 
 }
-
+/* button hover */
 .link-button:hover {
     transform: scale(1.3);
     margin-left: 20px;
@@ -72,7 +74,7 @@ body {
     justify-content: center;
 
 }
-
+/* player's information in grid */
 .box {
 
     display: grid;
@@ -138,11 +140,15 @@ body {
     height: 427px;
 
 }
-
+/*lower article section*/
 .lower-art {
     color: #6C6C6C;
     font-size: 16px;
 }
+
+
+/*footer */
+
 
 .container-four {
 
@@ -183,7 +189,7 @@ body {
 
 
 @media only screen and (max-width: 688px) {
-    /* Top Section  */
+    /* responsive Section  */
 
     .container-one {
         flex-direction: column;
@@ -200,7 +206,7 @@ body {
         font-size: 32px;
 
     }
-
+/* image responsive*/
     .title-img img {
         margin-top: 50px;
 
